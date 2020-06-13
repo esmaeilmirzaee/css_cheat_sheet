@@ -156,13 +156,14 @@ a:visited {
 }
 
 .social-network {
-    flex-flow: column;
-    box-sizing: border-box;
+    position: fixed;
+    top: 50%;
+    left: 1%;
 }
 
 .row {
-    position: fixed;
-    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
     margin: 0 0 0 12px;
     top: 50%;
     color: dodgerblue;
@@ -172,8 +173,13 @@ a:visited {
     background: rgb(241, 241, 241);
 }
 
+.row span {
+    padding: 5px;
+}
+
 .snetwork:hover {
     cursor: pointer;
+    color: #F9A826;
 }
 
 .p-box {
